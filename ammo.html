@@ -1,0 +1,212 @@
+<a href="index.html"><h2>< index</h2></a>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>shotgun-shell</th>
+      <th>explosive-rocket</th>
+      <th>atomic-bomb</th>
+      <th>flamethrower-ammo</th>
+      <th>explosive-cannon-shell</th>
+      <th>piercing-rounds-magazine</th>
+      <th>artillery-shell</th>
+      <th>cannon-shell</th>
+      <th>explosive-uranium-cannon-shell</th>
+      <th>uranium-rounds-magazine</th>
+      <th>uranium-cannon-shell</th>
+      <th>piercing-shotgun-shell</th>
+      <th>rocket</th>
+      <th>firearm-magazine</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ammo_type</th>
+      <td>{'action': [{'action_delivery': {'source_effects': [{'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}], 'type': 'instant'}, 'type': 'direct'}, {'action_delivery': {'max_range': 15, 'range_deviation': 0.30000000000000004, 'type': 'projectile', 'starting_speed_deviation': 0.1, 'direction_deviation': 0.30000000000000004, 'starting_speed': 1, 'projectile': 'shotgun-pellet'}, 'repeat_count': 12, 'type': 'direct'}], 'clamp_position': True, 'target_type': 'direction', 'category': 'shotgun-shell'}</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-hit', 'type': 'create-entity'}, 'projectile': 'explosive-rocket', 'starting_speed': 0.1, 'type': 'projectile'}, 'type': 'direct'}, 'category': 'rocket'}</td>
+      <td>{'range_modifier': 1.5, 'target_type': 'position', 'category': 'rocket', 'cooldown_modifier': 10, 'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-hit', 'type': 'create-entity'}, 'projectile': 'atomic-rocket', 'starting_speed': 0.05, 'type': 'projectile'}, 'type': 'direct'}}</td>
+      <td>[{'target_type': 'position', 'category': 'flamethrower', 'source_type': 'default', 'action': {'action_delivery': {'stream': 'handheld-flamethrower-fire-stream', 'type': 'stream'}, 'type': 'direct'}, 'clamp_position': True}, {'consumption_modifier': 1.125, 'category': 'flamethrower', 'action': {'action_delivery': {'stream': 'tank-flamethrower-fire-stream', 'type': 'stream'}, 'type': 'direct'}, 'source_type': 'vehicle', 'target_type': 'position', 'clamp_position': True}]</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}, 'max_range': 30, 'min_range': 5, 'type': 'projectile', 'range_deviation': 0.1, 'direction_deviation': 0.1, 'starting_speed': 1, 'projectile': 'explosive-cannon-projectile'}, 'type': 'direct'}, 'target_type': 'direction', 'category': 'cannon-shell'}</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}, 'target_effects': [{'entity_name': 'explosion-hit', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}], 'offsets': [{'1': 0, '2': 1}], 'type': 'create-entity'}, {'damage': {'type': 'physical', 'amount': 8}, 'type': 'damage'}], 'type': 'instant'}, 'type': 'direct'}, 'category': 'bullet'}</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'artillery-cannon-muzzle-flash', 'type': 'create-explosion'}, 'type': 'artillery', 'range_deviation': 0, 'direction_deviation': 0, 'starting_speed': 1, 'projectile': 'artillery-projectile'}, 'type': 'direct'}, 'target_type': 'position', 'category': 'artillery-shell'}</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}, 'max_range': 30, 'min_range': 5, 'type': 'projectile', 'range_deviation': 0.1, 'direction_deviation': 0.1, 'starting_speed': 1, 'projectile': 'cannon-projectile'}, 'type': 'direct'}, 'target_type': 'direction', 'category': 'cannon-shell'}</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}, 'max_range': 30, 'min_range': 5, 'type': 'projectile', 'range_deviation': 0.1, 'direction_deviation': 0.1, 'starting_speed': 1, 'projectile': 'explosive-uranium-cannon-projectile'}, 'type': 'direct'}, 'target_type': 'direction', 'category': 'cannon-shell'}</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}, 'target_effects': [{'entity_name': 'explosion-hit', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}], 'offsets': [{'1': 0, '2': 1}], 'type': 'create-entity'}, {'damage': {'type': 'physical', 'amount': 24}, 'type': 'damage'}], 'type': 'instant'}, 'type': 'direct'}, 'category': 'bullet'}</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}, 'max_range': 30, 'min_range': 5, 'type': 'projectile', 'range_deviation': 0.1, 'direction_deviation': 0.1, 'starting_speed': 1, 'projectile': 'uranium-cannon-projectile'}, 'type': 'direct'}, 'target_type': 'direction', 'category': 'cannon-shell'}</td>
+      <td>{'action': [{'action_delivery': {'source_effects': [{'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}], 'type': 'instant'}, 'type': 'direct'}, {'action_delivery': {'max_range': 15, 'range_deviation': 0.30000000000000004, 'type': 'projectile', 'starting_speed_deviation': 0.1, 'direction_deviation': 0.30000000000000004, 'starting_speed': 1, 'projectile': 'piercing-shotgun-pellet'}, 'repeat_count': 16, 'type': 'direct'}], 'clamp_position': True, 'target_type': 'direction', 'category': 'shotgun-shell'}</td>
+      <td>{'action': {'action_delivery': {'source_effects': {'entity_name': 'explosion-hit', 'type': 'create-entity'}, 'projectile': 'rocket', 'starting_speed': 0.1, 'type': 'projectile'}, 'type': 'direct'}, 'category': 'rocket'}</td>
+      <td>{'action': [{'action_delivery': [{'source_effects': [{'entity_name': 'explosion-gunshot', 'type': 'create-explosion'}], 'target_effects': [{'entity_name': 'explosion-hit', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}], 'offsets': [{'1': 0, '2': 1}], 'type': 'create-entity'}, {'damage': {'type': 'physical', 'amount': 5}, 'type': 'damage'}], 'type': 'instant'}], 'type': 'direct'}], 'category': 'bullet'}</td>
+    </tr>
+    <tr>
+      <th>subgroup</th>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+    </tr>
+    <tr>
+      <th>name</th>
+      <td>shotgun-shell</td>
+      <td>explosive-rocket</td>
+      <td>atomic-bomb</td>
+      <td>flamethrower-ammo</td>
+      <td>explosive-cannon-shell</td>
+      <td>piercing-rounds-magazine</td>
+      <td>artillery-shell</td>
+      <td>cannon-shell</td>
+      <td>explosive-uranium-cannon-shell</td>
+      <td>uranium-rounds-magazine</td>
+      <td>uranium-cannon-shell</td>
+      <td>piercing-shotgun-shell</td>
+      <td>rocket</td>
+      <td>firearm-magazine</td>
+    </tr>
+    <tr>
+      <th>icon_mipmaps</th>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>stack_size</th>
+      <td>200</td>
+      <td>200</td>
+      <td>10</td>
+      <td>100</td>
+      <td>200</td>
+      <td>200</td>
+      <td>1</td>
+      <td>200</td>
+      <td>200</td>
+      <td>200</td>
+      <td>200</td>
+      <td>200</td>
+      <td>200</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>type</th>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+      <td>ammo</td>
+    </tr>
+    <tr>
+      <th>icon_size</th>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>icon</th>
+      <td>__base__/graphics/icons/shotgun-shell.png</td>
+      <td>__base__/graphics/icons/explosive-rocket.png</td>
+      <td>__base__/graphics/icons/atomic-bomb.png</td>
+      <td>__base__/graphics/icons/flamethrower-ammo.png</td>
+      <td>__base__/graphics/icons/explosive-cannon-shell.png</td>
+      <td>__base__/graphics/icons/piercing-rounds-magazine.png</td>
+      <td>__base__/graphics/icons/artillery-shell.png</td>
+      <td>__base__/graphics/icons/cannon-shell.png</td>
+      <td>__base__/graphics/icons/explosive-uranium-cannon-shell.png</td>
+      <td>__base__/graphics/icons/uranium-rounds-magazine.png</td>
+      <td>__base__/graphics/icons/uranium-cannon-shell.png</td>
+      <td>__base__/graphics/icons/piercing-shotgun-shell.png</td>
+      <td>__base__/graphics/icons/rocket.png</td>
+      <td>__base__/graphics/icons/firearm-magazine.png</td>
+    </tr>
+    <tr>
+      <th>magazine_size</th>
+      <td>10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>100</td>
+      <td>NaN</td>
+      <td>10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>10</td>
+      <td>NaN</td>
+      <td>10</td>
+      <td>NaN</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>order</th>
+      <td>b[shotgun]-a[basic]</td>
+      <td>d[rocket-launcher]-b[explosive]</td>
+      <td>d[rocket-launcher]-c[atomic-bomb]</td>
+      <td>e[flamethrower]</td>
+      <td>d[cannon-shell]-c[explosive]</td>
+      <td>a[basic-clips]-b[piercing-rounds-magazine]</td>
+      <td>d[explosive-cannon-shell]-d[artillery]</td>
+      <td>d[cannon-shell]-a[basic]</td>
+      <td>d[explosive-cannon-shell]-c[uranium]</td>
+      <td>a[basic-clips]-c[uranium-rounds-magazine]</td>
+      <td>d[cannon-shell]-c[uranium]</td>
+      <td>b[shotgun]-b[piercing]</td>
+      <td>d[rocket-launcher]-a[basic]</td>
+      <td>a[basic-clips]-a[firearm-magazine]</td>
+    </tr>
+    <tr>
+      <th>pictures</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>{'layers': [{'scale': 0.25, 'mipmap_count': 4, 'filename': '__base__/graphics/icons/atomic-bomb.png', 'size': 64}, {'flags': ['light'], 'size': 64, 'scale': 0.25, 'draw_as_light': True, 'filename': '__base__/graphics/icons/atomic-bomb-light.png', 'mipmap_count': 4}]}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>{'layers': [{'scale': 0.25, 'mipmap_count': 4, 'filename': '__base__/graphics/icons/explosive-uranium-cannon-shell.png', 'size': 64}, {'flags': ['light'], 'size': 64, 'scale': 0.25, 'draw_as_light': True, 'filename': '__base__/graphics/icons/uranium-cannon-shell-light.png', 'mipmap_count': 4}]}</td>
+      <td>{'layers': [{'scale': 0.25, 'mipmap_count': 4, 'filename': '__base__/graphics/icons/uranium-rounds-magazine.png', 'size': 64}, {'flags': ['light'], 'size': 64, 'scale': 0.25, 'draw_as_light': True, 'filename': '__base__/graphics/icons/uranium-rounds-magazine-light.png', 'mipmap_count': 4}]}</td>
+      <td>{'layers': [{'scale': 0.25, 'mipmap_count': 4, 'filename': '__base__/graphics/icons/uranium-cannon-shell.png', 'size': 64}, {'flags': ['light'], 'size': 64, 'scale': 0.25, 'draw_as_light': True, 'filename': '__base__/graphics/icons/uranium-cannon-shell-light.png', 'mipmap_count': 4}]}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<a href="#"><h2>^ top</h2></a>
