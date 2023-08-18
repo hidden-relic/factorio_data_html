@@ -1,0 +1,212 @@
+<a href="index.html"><h2>< index</h2></a>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>steel-furnace</th>
+      <th>electric-furnace</th>
+      <th>stone-furnace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>flags</th>
+      <td>[placeable-neutral, placeable-player, player-creation]</td>
+      <td>[placeable-neutral, placeable-player, player-creation]</td>
+      <td>[placeable-neutral, placeable-player, player-creation]</td>
+    </tr>
+    <tr>
+      <th>damaged_trigger_effect</th>
+      <td>{'offsets': [{'1': 0, '2': 1}], 'type': 'create-entity', 'entity_name': 'spark-explosion', 'damage_type_filters': 'fire', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}]}</td>
+      <td>{'offsets': [{'1': 0, '2': 1}], 'type': 'create-entity', 'entity_name': 'spark-explosion', 'damage_type_filters': 'fire', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}]}</td>
+      <td>{'offsets': [{'1': 0, '2': 1}], 'type': 'create-entity', 'entity_name': 'rock-damaged-explosion', 'damage_type_filters': 'fire', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}]}</td>
+    </tr>
+    <tr>
+      <th>collision_box</th>
+      <td>[{'1': -0.7000000000000001, '2': -0.7000000000000001}, {'1': 0.7000000000000001, '2': 0.7000000000000001}]</td>
+      <td>[{'1': -1.2, '2': -1.2}, {'1': 1.2, '2': 1.2}]</td>
+      <td>[{'1': -0.7000000000000001, '2': -0.7000000000000001}, {'1': 0.7000000000000001, '2': 0.7000000000000001}]</td>
+    </tr>
+    <tr>
+      <th>name</th>
+      <td>steel-furnace</td>
+      <td>electric-furnace</td>
+      <td>stone-furnace</td>
+    </tr>
+    <tr>
+      <th>vehicle_impact_sound</th>
+      <td>[{'filename': '__base__/sound/car-metal-impact-2.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-3.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-4.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-5.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-6.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/car-metal-impact-2.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-3.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-4.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-5.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-6.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/car-stone-impact.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-stone-impact-2.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-stone-impact-3.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-stone-impact-4.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-stone-impact-5.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-stone-impact-6.ogg', 'volume': 0.5}]</td>
+    </tr>
+    <tr>
+      <th>max_health</th>
+      <td>300</td>
+      <td>350</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>working_sound</th>
+      <td>{'max_sounds_per_type': 4, 'audible_distance_modifier': 0.37, 'fade_out_ticks': 20, 'fade_in_ticks': 4, 'sound': [{'filename': '__base__/sound/steel-furnace.ogg', 'volume': 0.46}]}</td>
+      <td>{'fade_out_ticks': 20, 'fade_in_ticks': 4, 'audible_distance_modifier': 0.6000000000000001, 'sound': {'filename': '__base__/sound/electric-furnace.ogg', 'volume': 0.6000000000000001}}</td>
+      <td>{'fade_out_ticks': 20, 'fade_in_ticks': 4, 'audible_distance_modifier': 0.4, 'sound': [{'filename': '__base__/sound/furnace.ogg', 'volume': 0.6000000000000001}]}</td>
+    </tr>
+    <tr>
+      <th>type</th>
+      <td>furnace</td>
+      <td>furnace</td>
+      <td>furnace</td>
+    </tr>
+    <tr>
+      <th>icon_size</th>
+      <td>64</td>
+      <td>64</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>result_inventory_size</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>energy_source</th>
+      <td>{'emissions_per_minute': 4, 'fuel_inventory_size': 1, 'type': 'burner', 'fuel_category': 'chemical', 'light_flicker': {'color': [0, 0, 0], 'maximum_intensity': 0.9500000000000001, 'minimum_intensity': 0.6000000000000001}, 'effectivity': 1, 'smoke': [{'starting_frame_deviation': 60, 'position': [0.7000000000000001, -1.2], 'frequency': 10, 'name': 'smoke', 'starting_vertical_speed': 0.08}]}</td>
+      <td>{'emissions_per_minute': 1, 'usage_priority': 'secondary-input', 'type': 'electric'}</td>
+      <td>{'emissions_per_minute': 2, 'fuel_inventory_size': 1, 'type': 'burner', 'fuel_category': 'chemical', 'light_flicker': {'color': [0, 0, 0], 'maximum_intensity': 0.9500000000000001, 'minimum_intensity': 0.6000000000000001}, 'effectivity': 1, 'smoke': [{'deviation': [0.1, 0.1], 'starting_frame_deviation': 60, 'position': [0, -0.8], 'frequency': 5, 'name': 'smoke', 'starting_vertical_speed': 0.08}]}</td>
+    </tr>
+    <tr>
+      <th>working_visualisations</th>
+      <td>[{'animation': {'shift': [-0.015625, 0.1875], 'height': 40, 'priority': 'high', 'frame_count': 48, 'width': 29, 'hr_version': {'shift': [-0.0234375, 0.1796875], 'height': 81, 'priority': 'high', 'frame_count': 48, 'width': 57, 'line_length': 8, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/steel-furnace/hr-steel-furnace-fire.png'}, 'line_length': 8, 'direction_count': 1, 'filename': '__base__/graphics/entity/steel-furnace/steel-furnace-fire.png'}, 'draw_as_light': True, 'effect': 'flicker', 'fadeout': True}, {'animation': {'shift': [0.03125, 0.640625], 'blend_mode': 'additive', 'height': 43, 'priority': 'high', 'frame_count': 1, 'filename': '__base__/graphics/entity/steel-furnace/steel-furnace-glow.png', 'width': 60}, 'draw_as_light': True, 'effect': 'flicker', 'fadeout': True}, {'animation': {'shift': [0, -0.125], 'blend_mode': 'additive', 'height': 74, 'priority': 'high', 'frame_count': 1, 'width': 64, 'hr_version': {'shift': [0, -0.15625], 'blend_mode': 'additive', 'height': 150, 'priority': 'high', 'frame_count': 1, 'width': 128, 'line_length': 1, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/steel-furnace/hr-steel-furnace-working.png'}, 'line_length': 1, 'direction_count': 1, 'filename': '__base__/graphics/entity/steel-furnace/steel-furnace-working.png'}, 'draw_as_light': True, 'effect': 'flicker', 'fadeout': True}, {'draw_as_sprite': False, 'fadeout': True, 'draw_as_light': True, 'effect': 'flicker', 'animation': {'shift': [0, 1.5], 'blend_mode': 'additive', 'draw_as_sprite': False, 'priority': 'high', 'frame_count': 1, 'width': 78, 'hr_version': {'shift': [0.03125, 1.5], 'blend_mode': 'additive', 'draw_as_sprite': False, 'priority': 'high', 'frame_count': 1, 'width': 152, 'line_length': 1, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/steel-furnace/hr-steel-furnace-ground-light.png', 'height': 126}, 'line_length': 1, 'direction_count': 1, 'filename': '__base__/graphics/entity/steel-furnace/steel-furnace-ground-light.png', 'height': 64}}]</td>
+      <td>[{'draw_as_light': True, 'animation': {'layers': [{'shift': [0.015625, 0.890625], 'hr_version': {'shift': [0.0546875, 1.0234375], 'scale': 0.5, 'height': 56, 'priority': 'high', 'frame_count': 12, 'width': 60, 'filename': '__base__/graphics/entity/electric-furnace/hr-electric-furnace-heater.png', 'animation_speed': 0.5}, 'height': 15, 'priority': 'high', 'frame_count': 12, 'width': 25, 'filename': '__base__/graphics/entity/electric-furnace/electric-furnace-heater.png', 'animation_speed': 0.5}, {'shift': [0, 0], 'blend_mode': 'additive', 'height': 102, 'repeat_count': 12, 'width': 104, 'filename': '__base__/graphics/entity/electric-furnace/electric-furnace-light.png', 'hr_version': {'shift': [0.03125, 0], 'blend_mode': 'additive', 'height': 202, 'repeat_count': 12, 'scale': 0.5, 'filename': '__base__/graphics/entity/electric-furnace/hr-electric-furnace-light.png', 'width': 202}}]}, 'fadeout': True}, {'animation': {'shift': [0.125, 2.125], 'blend_mode': 'additive', 'height': 64, 'width': 82, 'filename': '__base__/graphics/entity/electric-furnace/electric-furnace-ground-light.png', 'hr_version': {'shift': [0.09375000000000001, 2.15625], 'blend_mode': 'additive', 'height': 124, 'scale': 0.5, 'filename': '__base__/graphics/entity/electric-furnace/hr-electric-furnace-ground-light.png', 'width': 166}}, 'draw_as_light': True, 'draw_as_sprite': False, 'fadeout': True}, {'animation': {'shift': [-0.671875, -0.640625], 'hr_version': {'shift': [-0.640625, -0.578125], 'scale': 0.5, 'height': 25, 'priority': 'high', 'frame_count': 4, 'width': 37, 'filename': '__base__/graphics/entity/electric-furnace/hr-electric-furnace-propeller-1.png', 'animation_speed': 0.5}, 'height': 13, 'priority': 'high', 'frame_count': 4, 'width': 19, 'filename': '__base__/graphics/entity/electric-furnace/electric-furnace-propeller-1.png', 'animation_speed': 0.5}}, {'animation': {'shift': [0.0625, -1.234375], 'hr_version': {'shift': [0.109375, -1.1875], 'scale': 0.5, 'height': 15, 'priority': 'high', 'frame_count': 4, 'width': 23, 'filename': '__base__/graphics/entity/electric-furnace/hr-electric-furnace-propeller-2.png', 'animation_speed': 0.5}, 'height': 9, 'priority': 'high', 'frame_count': 4, 'width': 12, 'filename': '__base__/graphics/entity/electric-furnace/electric-furnace-propeller-2.png', 'animation_speed': 0.5}}]</td>
+      <td>[{'animation': {'layers': [{'shift': [-0.015625, 0.171875], 'height': 49, 'priority': 'extra-high', 'frame_count': 48, 'width': 20, 'hr_version': {'shift': [-0.0234375, 0.171875], 'height': 100, 'priority': 'extra-high', 'frame_count': 48, 'width': 41, 'line_length': 8, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/stone-furnace/hr-stone-furnace-fire.png', 'axially_symmetrical': False}, 'line_length': 8, 'direction_count': 1, 'filename': '__base__/graphics/entity/stone-furnace/stone-furnace-fire.png', 'axially_symmetrical': False}, {'shift': [0, 0.125], 'blend_mode': 'additive', 'height': 74, 'repeat_count': 48, 'width': 54, 'filename': '__base__/graphics/entity/stone-furnace/stone-furnace-light.png', 'hr_version': {'shift': [0, 0.15625], 'blend_mode': 'additive', 'height': 144, 'repeat_count': 48, 'scale': 0.5, 'filename': '__base__/graphics/entity/stone-furnace/hr-stone-furnace-light.png', 'width': 106}}]}, 'draw_as_light': True, 'effect': 'flicker', 'fadeout': True}, {'draw_as_sprite': False, 'fadeout': True, 'draw_as_light': True, 'effect': 'flicker', 'animation': {'shift': [0, 1.375], 'blend_mode': 'additive', 'draw_as_sprite': False, 'repeat_count': 48, 'width': 56, 'height': 56, 'filename': '__base__/graphics/entity/stone-furnace/stone-furnace-ground-light.png', 'hr_version': {'shift': [-0.03125, 1.375], 'blend_mode': 'additive', 'draw_as_sprite': False, 'repeat_count': 48, 'scale': 0.5, 'height': 110, 'filename': '__base__/graphics/entity/stone-furnace/hr-stone-furnace-ground-light.png', 'width': 116}}}]</td>
+    </tr>
+    <tr>
+      <th>animation</th>
+      <td>{'layers': [{'shift': [-0.046875, 0.046875], 'height': 87, 'priority': 'high', 'frame_count': 1, 'width': 85, 'filename': '__base__/graphics/entity/steel-furnace/steel-furnace.png', 'hr_version': {'shift': [-0.0390625, 0.0625], 'height': 174, 'priority': 'high', 'frame_count': 1, 'scale': 0.5, 'filename': '__base__/graphics/entity/steel-furnace/hr-steel-furnace.png', 'width': 171}}, {'shift': [1.234375, 0.359375], 'hr_version': {'shift': [1.2265625, 0.3515625], 'scale': 0.5, 'height': 85, 'priority': 'high', 'frame_count': 1, 'width': 277, 'filename': '__base__/graphics/entity/steel-furnace/hr-steel-furnace-shadow.png', 'draw_as_shadow': True}, 'height': 43, 'priority': 'high', 'frame_count': 1, 'width': 139, 'filename': '__base__/graphics/entity/steel-furnace/steel-furnace-shadow.png', 'draw_as_shadow': True}]}</td>
+      <td>{'layers': [{'shift': [0.421875, 0], 'height': 100, 'priority': 'high', 'frame_count': 1, 'width': 129, 'filename': '__base__/graphics/entity/electric-furnace/electric-furnace-base.png', 'hr_version': {'shift': [0.0234375, 0.1796875], 'height': 219, 'priority': 'high', 'frame_count': 1, 'scale': 0.5, 'filename': '__base__/graphics/entity/electric-furnace/hr-electric-furnace.png', 'width': 239}}, {'shift': [0.421875, 0], 'hr_version': {'shift': [0.3515625, 0.2421875], 'scale': 0.5, 'height': 171, 'priority': 'high', 'frame_count': 1, 'width': 227, 'filename': '__base__/graphics/entity/electric-furnace/hr-electric-furnace-shadow.png', 'draw_as_shadow': True}, 'height': 100, 'priority': 'high', 'frame_count': 1, 'width': 129, 'filename': '__base__/graphics/entity/electric-furnace/electric-furnace-shadow.png', 'draw_as_shadow': True}]}</td>
+      <td>{'layers': [{'shift': [0.453125, 0.0625], 'height': 64, 'priority': 'extra-high', 'frame_count': 1, 'width': 81, 'filename': '__base__/graphics/entity/stone-furnace/stone-furnace.png', 'hr_version': {'shift': [-0.0078125, 0.1875], 'height': 146, 'priority': 'extra-high', 'frame_count': 1, 'scale': 0.5, 'filename': '__base__/graphics/entity/stone-furnace/hr-stone-furnace.png', 'width': 151}}, {'shift': [0.453125, 0.0625], 'hr_version': {'shift': [0.453125, 0.40625000000000006], 'scale': 0.5, 'height': 74, 'priority': 'extra-high', 'frame_count': 1, 'width': 164, 'filename': '__base__/graphics/entity/stone-furnace/hr-stone-furnace-shadow.png', 'draw_as_shadow': True}, 'height': 64, 'priority': 'extra-high', 'frame_count': 1, 'width': 81, 'filename': '__base__/graphics/entity/stone-furnace/stone-furnace-shadow.png', 'draw_as_shadow': True}]}</td>
+    </tr>
+    <tr>
+      <th>fast_replaceable_group</th>
+      <td>furnace</td>
+      <td>furnace</td>
+      <td>furnace</td>
+    </tr>
+    <tr>
+      <th>dying_explosion</th>
+      <td>steel-furnace-explosion</td>
+      <td>electric-furnace-explosion</td>
+      <td>stone-furnace-explosion</td>
+    </tr>
+    <tr>
+      <th>resistances</th>
+      <td>[{'percent': 100, 'type': 'fire'}]</td>
+      <td>[{'percent': 80, 'type': 'fire'}]</td>
+      <td>[{'percent': 90, 'type': 'fire'}, {'percent': 30, 'type': 'explosion'}, {'percent': 30, 'type': 'impact'}]</td>
+    </tr>
+    <tr>
+      <th>icon_mipmaps</th>
+      <td>4</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>minable</th>
+      <td>{'result': 'steel-furnace', 'mining_time': 0.2}</td>
+      <td>{'result': 'electric-furnace', 'mining_time': 0.2}</td>
+      <td>{'result': 'stone-furnace', 'mining_time': 0.2}</td>
+    </tr>
+    <tr>
+      <th>energy_usage</th>
+      <td>90kW</td>
+      <td>180kW</td>
+      <td>90kW</td>
+    </tr>
+    <tr>
+      <th>crafting_categories</th>
+      <td>[smelting]</td>
+      <td>[smelting]</td>
+      <td>[smelting]</td>
+    </tr>
+    <tr>
+      <th>selection_box</th>
+      <td>[{'1': -0.8, '2': -1}, {'1': 0.8, '2': 1}]</td>
+      <td>[{'1': -1.5, '2': -1.5}, {'1': 1.5, '2': 1.5}]</td>
+      <td>[{'1': -0.8, '2': -1}, {'1': 0.8, '2': 1}]</td>
+    </tr>
+    <tr>
+      <th>water_reflection</th>
+      <td>{'pictures': {'shift': [0, 1.40625], 'height': 24, 'priority': 'extra-high', 'variation_count': 1, 'scale': 5, 'filename': '__base__/graphics/entity/steel-furnace/steel-furnace-reflection.png', 'width': 20}, 'rotate': False, 'orientation_to_variation': False}</td>
+      <td>{'pictures': {'shift': [0.15625, 1.25], 'height': 24, 'priority': 'extra-high', 'variation_count': 1, 'scale': 5, 'filename': '__base__/graphics/entity/electric-furnace/electric-furnace-reflection.png', 'width': 24}, 'rotate': False, 'orientation_to_variation': False}</td>
+      <td>{'pictures': {'shift': [0, 1.09375], 'height': 16, 'priority': 'extra-high', 'variation_count': 1, 'scale': 5, 'filename': '__base__/graphics/entity/stone-furnace/stone-furnace-reflection.png', 'width': 16}, 'rotate': False, 'orientation_to_variation': False}</td>
+    </tr>
+    <tr>
+      <th>close_sound</th>
+      <td>[{'filename': '__base__/sound/machine-close.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/machine-close.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/machine-close.ogg', 'volume': 0.5}]</td>
+    </tr>
+    <tr>
+      <th>open_sound</th>
+      <td>[{'filename': '__base__/sound/machine-open.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/machine-open.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/machine-open.ogg', 'volume': 0.5}]</td>
+    </tr>
+    <tr>
+      <th>source_inventory_size</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>icon</th>
+      <td>__base__/graphics/icons/steel-furnace.png</td>
+      <td>__base__/graphics/icons/electric-furnace.png</td>
+      <td>__base__/graphics/icons/stone-furnace.png</td>
+    </tr>
+    <tr>
+      <th>corpse</th>
+      <td>steel-furnace-remnants</td>
+      <td>electric-furnace-remnants</td>
+      <td>stone-furnace-remnants</td>
+    </tr>
+    <tr>
+      <th>crafting_speed</th>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>allowed_effects</th>
+      <td>NaN</td>
+      <td>[consumption, speed, productivity, pollution]</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>module_specification</th>
+      <td>NaN</td>
+      <td>{'module_info_icon_shift': [0, 0.8], 'module_slots': 2}</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>mined_sound</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>{'filename': '__base__/sound/deconstruct-bricks.ogg', 'volume': 0.8}</td>
+    </tr>
+    <tr>
+      <th>repair_sound</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>[{'filename': '__base__/sound/manual-repair-simple-1.ogg', 'volume': 0.5}, {'filename': '__base__/sound/manual-repair-simple-2.ogg', 'volume': 0.5}, {'filename': '__base__/sound/manual-repair-simple-3.ogg', 'volume': 0.5}, {'filename': '__base__/sound/manual-repair-simple-4.ogg', 'volume': 0.5}, {'filename': '__base__/sound/manual-repair-simple-5.ogg', 'volume': 0.4}]</td>
+    </tr>
+    <tr>
+      <th>next_upgrade</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>steel-furnace</td>
+    </tr>
+  </tbody>
+</table>
+<a href="#"><h2>^ top</h2></a>

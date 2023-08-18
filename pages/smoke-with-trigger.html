@@ -1,0 +1,183 @@
+<a href="index.html"><h2>< index</h2></a>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>crash-site-fire-smoke</th>
+      <th>poison-cloud-visual-dummy</th>
+      <th>crash-site-explosion-smoke</th>
+      <th>poison-cloud</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>flags</th>
+      <td>[not-on-map]</td>
+      <td>[not-on-map]</td>
+      <td>[not-on-map]</td>
+      <td>[not-on-map]</td>
+    </tr>
+    <tr>
+      <th>name</th>
+      <td>crash-site-fire-smoke</td>
+      <td>poison-cloud-visual-dummy</td>
+      <td>crash-site-explosion-smoke</td>
+      <td>poison-cloud</td>
+    </tr>
+    <tr>
+      <th>cyclic</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>animation</th>
+      <td>{'height': 1, 'priority': 'extra-high', 'frame_count': 1, 'direction_count': 1, 'filename': '__core__/graphics/empty.png', 'width': 1}</td>
+      <td>{'shift': [-0.53125, -0.4375], 'height': 120, 'priority': 'high', 'frame_count': 60, 'width': 152, 'line_length': 5, 'flags': ['smoke'], 'filename': '__base__/graphics/entity/smoke/smoke.png', 'animation_speed': 0.25}</td>
+      <td>{'height': 1, 'priority': 'extra-high', 'frame_count': 1, 'direction_count': 1, 'filename': '__core__/graphics/empty.png', 'width': 1}</td>
+      <td>{'shift': [-0.53125, -0.4375], 'height': 120, 'priority': 'high', 'frame_count': 60, 'width': 152, 'line_length': 5, 'flags': ['smoke'], 'filename': '__base__/graphics/entity/smoke/smoke.png', 'animation_speed': 0.25}</td>
+    </tr>
+    <tr>
+      <th>affected_by_wind</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>fade_away_duration</th>
+      <td>120</td>
+      <td>180</td>
+      <td>NaN</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <th>type</th>
+      <td>smoke-with-trigger</td>
+      <td>smoke-with-trigger</td>
+      <td>smoke-with-trigger</td>
+      <td>smoke-with-trigger</td>
+    </tr>
+    <tr>
+      <th>action_cooldown</th>
+      <td>49</td>
+      <td>NaN</td>
+      <td>50</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>action</th>
+      <td>{'probability': 0.5, 'action_delivery': {'target_effects': {'entity_name': 'crash-site-fire-flame', 'type': 'create-fire'}, 'type': 'instant'}, 'type': 'direct'}</td>
+      <td>NaN</td>
+      <td>{'action_delivery': {'target_effects': [{'entity_name': 'big-explosion', 'probability': 0.016666666666666, 'offset_deviation': [{'1': -1, '2': -1}, {'1': 1, '2': 1}], 'type': 'create-entity'}, {'entity_name': 'massive-explosion', 'probability': 0.016666666666666, 'offset_deviation': [{'1': -1, '2': -1}, {'1': 1, '2': 1}], 'type': 'create-entity'}, {'entity_name': 'medium-explosion', 'probability': 0.016666666666666, 'offset_deviation': [{'1': -1, '2': -1}, {'1': 1, '2': 1}], 'type': 'create-entity'}], 'type': 'instant'}, 'type': 'direct'}</td>
+      <td>{'action_delivery': {'target_effects': {'action': {'action_delivery': {'target_effects': {'damage': {'type': 'poison', 'amount': 8}, 'type': 'damage'}, 'type': 'instant'}, 'radius': 11, 'entity_flags': ['breaths-air'], 'type': 'area'}, 'type': 'nested-result'}, 'type': 'instant'}, 'type': 'direct'}</td>
+    </tr>
+    <tr>
+      <th>duration</th>
+      <td>600</td>
+      <td>1440</td>
+      <td>600</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <th>show_when_smoke_off</th>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>spread_duration</th>
+      <td>NaN</td>
+      <td>140</td>
+      <td>NaN</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>wave_distance</th>
+      <td>NaN</td>
+      <td>[1, 0.5]</td>
+      <td>NaN</td>
+      <td>[0.30000000000000004, 0.2]</td>
+    </tr>
+    <tr>
+      <th>particle_count</th>
+      <td>NaN</td>
+      <td>24</td>
+      <td>NaN</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>particle_scale_factor</th>
+      <td>NaN</td>
+      <td>[1, 0.707]</td>
+      <td>NaN</td>
+      <td>[1, 0.707]</td>
+    </tr>
+    <tr>
+      <th>spread_duration_variation</th>
+      <td>NaN</td>
+      <td>280</td>
+      <td>NaN</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>particle_spread</th>
+      <td>NaN</td>
+      <td>[3.7800000000000002, 2.268]</td>
+      <td>NaN</td>
+      <td>[3.7800000000000002, 2.268]</td>
+    </tr>
+    <tr>
+      <th>working_sound</th>
+      <td>NaN</td>
+      <td>{'match_volume_to_activity': True, 'max_sounds_per_type': 1, 'audible_distance_modifier': 0.8, 'sound': {'variations': [{'filename': '__base__/sound/fight/poison-cloud.ogg', 'volume': 0.5}]}}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>particle_distance_scale_factor</th>
+      <td>NaN</td>
+      <td>0.5</td>
+      <td>NaN</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th>particle_duration_variation</th>
+      <td>NaN</td>
+      <td>180</td>
+      <td>NaN</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <th>color</th>
+      <td>NaN</td>
+      <td>{'b': 0.395, 'g': 0.358, 'r': 0.014, 'a': 0.322}</td>
+      <td>NaN</td>
+      <td>{'b': 0.992, 'g': 0.875, 'r': 0.23900000000000002, 'a': 0.6900000000000001}</td>
+    </tr>
+    <tr>
+      <th>render_layer</th>
+      <td>NaN</td>
+      <td>object</td>
+      <td>NaN</td>
+      <td>object</td>
+    </tr>
+    <tr>
+      <th>wave_speed</th>
+      <td>NaN</td>
+      <td>[0.00625, 0.008333333333333]</td>
+      <td>NaN</td>
+      <td>[0.0125, 0.016666666666666]</td>
+    </tr>
+    <tr>
+      <th>created_effect</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>[{'cluster_count': 10, 'type': 'cluster', 'distance': 4, 'distance_deviation': 5, 'action_delivery': {'target_effects': [{'entity_name': 'poison-cloud-visual-dummy', 'initial_height': 0, 'show_in_tooltip': False, 'type': 'create-smoke'}, {'sound': {'variations': [{'filename': '__base__/sound/fight/poison-capsule-explosion-1.ogg', 'volume': 0.30000000000000004}], 'aggregation': {'max_count': 1, 'remove': True}}, 'type': 'play-sound'}], 'type': 'instant'}}, {'cluster_count': 11, 'type': 'cluster', 'distance': 8.8, 'distance_deviation': 2, 'action_delivery': {'target_effects': [{'entity_name': 'poison-cloud-visual-dummy', 'initial_height': 0, 'show_in_tooltip': False, 'type': 'create-smoke'}], 'type': 'instant'}}]</td>
+    </tr>
+  </tbody>
+</table>
+<a href="#"><h2>^ top</h2></a>

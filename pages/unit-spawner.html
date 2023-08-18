@@ -1,0 +1,188 @@
+<a href="index.html"><h2>< index</h2></a>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>spitter-spawner</th>
+      <th>biter-spawner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>working_sound</th>
+      <td>{'sound': [{'filename': '__base__/sound/creatures/spawner-spitter.ogg', 'volume': 0.6000000000000001}]}</td>
+      <td>{'sound': [{'filename': '__base__/sound/creatures/spawner.ogg', 'volume': 0.6000000000000001}]}</td>
+    </tr>
+    <tr>
+      <th>max_health</th>
+      <td>350</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <th>dying_sound</th>
+      <td>[{'filename': '__base__/sound/creatures/spawner-death-1.ogg', 'volume': 1}, {'filename': '__base__/sound/creatures/spawner-death-2.ogg', 'volume': 1}]</td>
+      <td>[{'filename': '__base__/sound/creatures/spawner-death-1.ogg', 'volume': 1}, {'filename': '__base__/sound/creatures/spawner-death-2.ogg', 'volume': 1}]</td>
+    </tr>
+    <tr>
+      <th>type</th>
+      <td>unit-spawner</td>
+      <td>unit-spawner</td>
+    </tr>
+    <tr>
+      <th>integration</th>
+      <td>{'shift': [0.0625, -0.0625], 'width': 258, 'height': 188, 'line_length': 1, 'variation_count': 4, 'frame_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle-integration.png', 'hr_version': {'shift': [0.09375000000000001, -0.09375000000000001], 'scale': 0.5, 'height': 380, 'line_length': 1, 'variation_count': 4, 'frame_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-integration.png', 'width': 522}}</td>
+      <td>{'sheet': {'shift': [0.0625, -0.0625], 'width': 258, 'height': 188, 'line_length': 1, 'variation_count': 4, 'frame_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle-integration.png', 'hr_version': {'shift': [0.09375000000000001, -0.09375000000000001], 'scale': 0.5, 'height': 380, 'line_length': 1, 'variation_count': 4, 'frame_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-integration.png', 'width': 522}}}</td>
+    </tr>
+    <tr>
+      <th>call_for_help_radius</th>
+      <td>50</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>autoplace</th>
+      <td>{'force': 'enemy', 'richness_expression': {'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\entity\enemy-autoplace-utils.lua', 'line_number': 159}, 'literal_value': 1, 'type': 'literal-number'}, 'probability_expression': {'arguments': {'x': {'arguments': [{'variable_name': 'x', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 155}, 'type': 'variable'}, {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 54}, 'literal_value': 7, 'type': 'literal-number'}], 'function_name': 'add', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 155}, 'type': 'function-application'}, 'amplitude': {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 256}, 'literal_value': 0.1, 'type': 'literal-number'}, 'source': {'arguments': [{'arguments': [{'variable_name': 'enemy_base_probability', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 148}, 'type': 'variable'}, {'arguments': [{'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'literal_value': 0, 'type': 'literal-number'}, {'arguments': [{'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 54}, 'literal_value': 1, 'type': 'literal-number'}, {'arguments': [{'arguments': [{'arguments': [{'arguments': [{'variable_name': 'distance', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 142}, 'type': 'variable'}, {'variable_name': 'starting_area_radius', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 142}, 'type': 'variable'}], 'function_name': 'subtract', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 142}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 62}, 'literal_value': 0, 'type': 'literal-number'}], 'function_name': 'subtract', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 78}, 'literal_value': 0.002, 'type': 'literal-number'}], 'function_name': 'multiply', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 78}, 'literal_value': 0, 'type': 'literal-number'}], 'function_name': 'multiply', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}], 'function_name': 'add', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'literal_value': inf, 'type': 'literal-number'}], 'function_name': 'clamp', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}], 'function_name': 'multiply', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 148}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 151}, 'literal_value': -inf, 'type': 'literal-number'}, {'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 151}, 'literal_value': 0.25, 'type': 'literal-number'}], 'function_name': 'clamp', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 151}, 'type': 'function-application'}, 'y': {'variable_name': 'y', 'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 254}, 'type': 'variable'}}, 'function_name': 'random-penalty', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\entity\enemy-autoplace-utils.lua', 'line_number': 154}, 'type': 'function-application'}, 'control': 'enemy-base', 'order': 'b[enemy]-a[spawner]'}</td>
+      <td>{'force': 'enemy', 'richness_expression': {'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\entity\enemy-autoplace-utils.lua', 'line_number': 159}, 'literal_value': 1, 'type': 'literal-number'}, 'probability_expression': {'arguments': {'x': {'arguments': [{'variable_name': 'x', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 155}, 'type': 'variable'}, {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 54}, 'literal_value': 6, 'type': 'literal-number'}], 'function_name': 'add', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 155}, 'type': 'function-application'}, 'amplitude': {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 256}, 'literal_value': 0.1, 'type': 'literal-number'}, 'source': {'arguments': [{'arguments': [{'variable_name': 'enemy_base_probability', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 148}, 'type': 'variable'}, {'arguments': [{'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'literal_value': 0, 'type': 'literal-number'}, {'arguments': [{'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 54}, 'literal_value': 1, 'type': 'literal-number'}, {'arguments': [{'arguments': [{'arguments': [{'arguments': [{'variable_name': 'distance', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 142}, 'type': 'variable'}, {'variable_name': 'starting_area_radius', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 142}, 'type': 'variable'}], 'function_name': 'subtract', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 142}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 62}, 'literal_value': 0, 'type': 'literal-number'}], 'function_name': 'subtract', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 78}, 'literal_value': 0.002, 'type': 'literal-number'}], 'function_name': 'multiply', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 78}, 'literal_value': 0, 'type': 'literal-number'}], 'function_name': 'multiply', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}], 'function_name': 'add', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'literal_value': inf, 'type': 'literal-number'}], 'function_name': 'clamp', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 146}, 'type': 'function-application'}], 'function_name': 'multiply', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 148}, 'type': 'function-application'}, {'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 151}, 'literal_value': -inf, 'type': 'literal-number'}, {'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 151}, 'literal_value': 0.25, 'type': 'literal-number'}], 'function_name': 'clamp', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\\entity\\enemy-autoplace-utils.lua', 'line_number': 151}, 'type': 'function-application'}, 'y': {'variable_name': 'y', 'source_location': {'filename': 'version_data/1.1.61/core/lualib/noise.lua', 'line_number': 254}, 'type': 'variable'}}, 'function_name': 'random-penalty', 'source_location': {'filename': 'version_data/1.1.61/__base__/prototypes\entity\enemy-autoplace-utils.lua', 'line_number': 154}, 'type': 'function-application'}, 'control': 'enemy-base', 'order': 'b[enemy]-a[spawner]'}</td>
+    </tr>
+    <tr>
+      <th>resistances</th>
+      <td>[{'percent': 15, 'decrease': 2, 'type': 'physical'}, {'percent': 15, 'decrease': 5, 'type': 'explosion'}, {'percent': 60, 'decrease': 3, 'type': 'fire'}]</td>
+      <td>[{'percent': 15, 'decrease': 2, 'type': 'physical'}, {'percent': 15, 'decrease': 5, 'type': 'explosion'}, {'percent': 60, 'decrease': 3, 'type': 'fire'}]</td>
+    </tr>
+    <tr>
+      <th>healing_per_tick</th>
+      <td>0.02</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <th>order</th>
+      <td>b-d-b</td>
+      <td>b-d-a</td>
+    </tr>
+    <tr>
+      <th>flags</th>
+      <td>[placeable-player, placeable-enemy, not-repairable]</td>
+      <td>[placeable-player, placeable-enemy, not-repairable]</td>
+    </tr>
+    <tr>
+      <th>damaged_trigger_effect</th>
+      <td>{'offsets': [{'1': 0, '2': 0}], 'type': 'create-entity', 'entity_name': 'enemy-damaged-explosion', 'damage_type_filters': 'fire', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}]}</td>
+      <td>{'offsets': [{'1': 0, '2': 0}], 'type': 'create-entity', 'entity_name': 'enemy-damaged-explosion', 'damage_type_filters': 'fire', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}]}</td>
+    </tr>
+    <tr>
+      <th>collision_box</th>
+      <td>[{'1': -3.2, '2': -2.2}, {'1': 2.2, '2': 2.2}]</td>
+      <td>[{'1': -3.2, '2': -2.2}, {'1': 2.2, '2': 2.2}]</td>
+    </tr>
+    <tr>
+      <th>subgroup</th>
+      <td>enemies</td>
+      <td>enemies</td>
+    </tr>
+    <tr>
+      <th>name</th>
+      <td>spitter-spawner</td>
+      <td>biter-spawner</td>
+    </tr>
+    <tr>
+      <th>icon_mipmaps</th>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>icon_size</th>
+      <td>64</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>spawn_decoration</th>
+      <td>[{'spawn_max': 2, 'spawn_min_radius': 2, 'spawn_max_radius': 5, 'decorative': 'light-mud-decal', 'spawn_min': 0}, {'spawn_max': 3, 'spawn_min_radius': 2, 'spawn_max_radius': 6, 'decorative': 'dark-mud-decal', 'spawn_min': 0}, {'spawn_max': 5, 'spawn_min_radius': 2, 'spawn_max_radius': 7, 'decorative': 'enemy-decal', 'spawn_min': 3}, {'spawn_max': 20, 'spawn_max_radius': 14, 'spawn_min_radius': 2, 'radius_curve': 0.9, 'decorative': 'enemy-decal-transparent', 'spawn_min': 4}, {'spawn_max': 5, 'spawn_min_radius': 3, 'spawn_max_radius': 6, 'decorative': 'muddy-stump', 'spawn_min': 2}, {'spawn_max': 8, 'spawn_min_radius': 3, 'spawn_max_radius': 6, 'decorative': 'red-croton', 'spawn_min': 2}, {'spawn_max': 5, 'spawn_min_radius': 3, 'spawn_max_radius': 6, 'decorative': 'red-pita', 'spawn_min': 1}, {'spawn_max': 2, 'spawn_min_radius': 2, 'spawn_max_radius': 7, 'decorative': 'lichen-decal', 'spawn_min': 1}]</td>
+      <td>[{'spawn_max': 2, 'spawn_min_radius': 2, 'spawn_max_radius': 5, 'decorative': 'light-mud-decal', 'spawn_min': 0}, {'spawn_max': 3, 'spawn_min_radius': 2, 'spawn_max_radius': 6, 'decorative': 'dark-mud-decal', 'spawn_min': 0}, {'spawn_max': 5, 'spawn_min_radius': 2, 'spawn_max_radius': 7, 'decorative': 'enemy-decal', 'spawn_min': 3}, {'spawn_max': 20, 'spawn_max_radius': 14, 'spawn_min_radius': 2, 'radius_curve': 0.9, 'decorative': 'enemy-decal-transparent', 'spawn_min': 4}, {'spawn_max': 5, 'spawn_min_radius': 3, 'spawn_max_radius': 6, 'decorative': 'muddy-stump', 'spawn_min': 2}, {'spawn_max': 8, 'spawn_min_radius': 3, 'spawn_max_radius': 6, 'decorative': 'red-croton', 'spawn_min': 2}, {'spawn_max': 5, 'spawn_min_radius': 3, 'spawn_max_radius': 6, 'decorative': 'red-pita', 'spawn_min': 1}]</td>
+    </tr>
+    <tr>
+      <th>spawn_decorations_on_expansion</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>max_count_of_owned_units</th>
+      <td>7</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>map_generator_bounding_box</th>
+      <td>[{'1': -4.2, '2': -3.2}, {'1': 3.2, '2': 3.2}]</td>
+      <td>[{'1': -4.2, '2': -3.2}, {'1': 3.2, '2': 3.2}]</td>
+    </tr>
+    <tr>
+      <th>animations</th>
+      <td>[{'layers': [{'shift': [0.0625, -0.125], 'height': 180, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 248, 'hr_version': {'shift': [0.09375000000000001, -0.0625], 'height': 354, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 490, 'line_length': 4, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle.png', 'animation_speed': 0.18}, 'line_length': 4, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle.png', 'animation_speed': 0.18}, {'flags': ['mask'], 'height': 118, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 140, 'hr_version': {'flags': ['mask'], 'height': 234, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 276, 'line_length': 4, 'shift': [-0.03125, -0.4375], 'scale': 0.5, 'tint': {'b': 0.09, 'g': 0.09, 'r': 0.99, 'a': 1}, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-mask.png', 'animation_speed': 0.18}, 'line_length': 4, 'shift': [-0.0625, -0.4375], 'tint': {'b': 0.09, 'g': 0.09, 'r': 0.99, 'a': 1}, 'filename': '__base__/graphics/entity/spawner/spawner-idle-mask.png', 'animation_speed': 0.18}, {'shift': [1.125, -0.0625], 'height': 176, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 232, 'hr_version': {'shift': [1.125, 0.3125], 'height': 406, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 464, 'line_length': 4, 'scale': 0.5, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-shadow.png', 'draw_as_shadow': True}, 'line_length': 4, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/spawner-idle-shadow.png', 'draw_as_shadow': True}]}, {'layers': [{'shift': [0.0625, -0.125], 'height': 180, 'y': 360, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 248, 'hr_version': {'shift': [0.09375000000000001, -0.0625], 'height': 354, 'y': 708, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 490, 'line_length': 4, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle.png', 'animation_speed': 0.18}, 'line_length': 4, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle.png', 'animation_speed': 0.18}, {'flags': ['mask'], 'height': 118, 'y': 236, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 140, 'hr_version': {'flags': ['mask'], 'height': 234, 'y': 468, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 276, 'line_length': 4, 'shift': [-0.03125, -0.4375], 'scale': 0.5, 'tint': {'b': 0.09, 'g': 0.09, 'r': 0.99, 'a': 1}, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-mask.png', 'animation_speed': 0.18}, 'line_length': 4, 'shift': [-0.0625, -0.4375], 'tint': {'b': 0.09, 'g': 0.09, 'r': 0.99, 'a': 1}, 'filename': '__base__/graphics/entity/spawner/spawner-idle-mask.png', 'animation_speed': 0.18}, {'shift': [1.125, -0.0625], 'height': 176, 'y': 352, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 232, 'hr_version': {'shift': [1.125, 0.3125], 'height': 406, 'y': 812, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 464, 'line_length': 4, 'scale': 0.5, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-shadow.png', 'draw_as_shadow': True}, 'line_length': 4, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/spawner-idle-shadow.png', 'draw_as_shadow': True}]}, {'layers': [{'shift': [0.0625, -0.125], 'height': 180, 'y': 720, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 248, 'hr_version': {'shift': [0.09375000000000001, -0.0625], 'height': 354, 'y': 1416, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 490, 'line_length': 4, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle.png', 'animation_speed': 0.18}, 'line_length': 4, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle.png', 'animation_speed': 0.18}, {'flags': ['mask'], 'height': 118, 'y': 472, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 140, 'hr_version': {'flags': ['mask'], 'height': 234, 'y': 936, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 276, 'line_length': 4, 'shift': [-0.03125, -0.4375], 'scale': 0.5, 'tint': {'b': 0.09, 'g': 0.09, 'r': 0.99, 'a': 1}, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-mask.png', 'animation_speed': 0.18}, 'line_length': 4, 'shift': [-0.0625, -0.4375], 'tint': {'b': 0.09, 'g': 0.09, 'r': 0.99, 'a': 1}, 'filename': '__base__/graphics/entity/spawner/spawner-idle-mask.png', 'animation_speed': 0.18}, {'shift': [1.125, -0.0625], 'height': 176, 'y': 704, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 232, 'hr_version': {'shift': [1.125, 0.3125], 'height': 406, 'y': 1624, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 464, 'line_length': 4, 'scale': 0.5, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-shadow.png', 'draw_as_shadow': True}, 'line_length': 4, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/spawner-idle-shadow.png', 'draw_as_shadow': True}]}, {'layers': [{'shift': [0.0625, -0.125], 'height': 180, 'y': 1080, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 248, 'hr_version': {'shift': [0.09375000000000001, -0.0625], 'height': 354, 'y': 2124, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 490, 'line_length': 4, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle.png', 'animation_speed': 0.18}, 'line_length': 4, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle.png', 'animation_speed': 0.18}, {'flags': ['mask'], 'height': 118, 'y': 708, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 140, 'hr_version': {'flags': ['mask'], 'height': 234, 'y': 1404, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 276, 'line_length': 4, 'shift': [-0.03125, -0.4375], 'scale': 0.5, 'tint': {'b': 0.09, 'g': 0.09, 'r': 0.99, 'a': 1}, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-mask.png', 'animation_speed': 0.18}, 'line_length': 4, 'shift': [-0.0625, -0.4375], 'tint': {'b': 0.09, 'g': 0.09, 'r': 0.99, 'a': 1}, 'filename': '__base__/graphics/entity/spawner/spawner-idle-mask.png', 'animation_speed': 0.18}, {'shift': [1.125, -0.0625], 'height': 176, 'y': 1056, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 232, 'hr_version': {'shift': [1.125, 0.3125], 'height': 406, 'y': 2436, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 464, 'line_length': 4, 'scale': 0.5, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-shadow.png', 'draw_as_shadow': True}, 'line_length': 4, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/spawner-idle-shadow.png', 'draw_as_shadow': True}]}]</td>
+      <td>[{'layers': [{'shift': [0.0625, -0.125], 'height': 180, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 248, 'hr_version': {'shift': [0.09375000000000001, -0.0625], 'height': 354, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 490, 'line_length': 4, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle.png', 'animation_speed': 0.18}, 'line_length': 4, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle.png', 'animation_speed': 0.18}, {'flags': ['mask'], 'height': 118, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 140, 'hr_version': {'flags': ['mask'], 'height': 234, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 276, 'line_length': 4, 'shift': [-0.03125, -0.4375], 'scale': 0.5, 'tint': {'b': 0, 'g': 0.54, 'r': 0.92, 'a': 0.5}, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-mask.png', 'animation_speed': 0.18}, 'line_length': 4, 'shift': [-0.0625, -0.4375], 'tint': {'b': 0, 'g': 0.54, 'r': 0.92, 'a': 0.5}, 'filename': '__base__/graphics/entity/spawner/spawner-idle-mask.png', 'animation_speed': 0.18}, {'shift': [1.125, -0.0625], 'height': 176, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 232, 'hr_version': {'shift': [1.125, 0.3125], 'height': 406, 'y': 0, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 464, 'line_length': 4, 'scale': 0.5, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-shadow.png', 'draw_as_shadow': True}, 'line_length': 4, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/spawner-idle-shadow.png', 'draw_as_shadow': True}]}, {'layers': [{'shift': [0.0625, -0.125], 'height': 180, 'y': 360, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 248, 'hr_version': {'shift': [0.09375000000000001, -0.0625], 'height': 354, 'y': 708, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 490, 'line_length': 4, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle.png', 'animation_speed': 0.18}, 'line_length': 4, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle.png', 'animation_speed': 0.18}, {'flags': ['mask'], 'height': 118, 'y': 236, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 140, 'hr_version': {'flags': ['mask'], 'height': 234, 'y': 468, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 276, 'line_length': 4, 'shift': [-0.03125, -0.4375], 'scale': 0.5, 'tint': {'b': 0, 'g': 0.54, 'r': 0.92, 'a': 0.5}, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-mask.png', 'animation_speed': 0.18}, 'line_length': 4, 'shift': [-0.0625, -0.4375], 'tint': {'b': 0, 'g': 0.54, 'r': 0.92, 'a': 0.5}, 'filename': '__base__/graphics/entity/spawner/spawner-idle-mask.png', 'animation_speed': 0.18}, {'shift': [1.125, -0.0625], 'height': 176, 'y': 352, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 232, 'hr_version': {'shift': [1.125, 0.3125], 'height': 406, 'y': 812, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 464, 'line_length': 4, 'scale': 0.5, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-shadow.png', 'draw_as_shadow': True}, 'line_length': 4, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/spawner-idle-shadow.png', 'draw_as_shadow': True}]}, {'layers': [{'shift': [0.0625, -0.125], 'height': 180, 'y': 720, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 248, 'hr_version': {'shift': [0.09375000000000001, -0.0625], 'height': 354, 'y': 1416, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 490, 'line_length': 4, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle.png', 'animation_speed': 0.18}, 'line_length': 4, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle.png', 'animation_speed': 0.18}, {'flags': ['mask'], 'height': 118, 'y': 472, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 140, 'hr_version': {'flags': ['mask'], 'height': 234, 'y': 936, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 276, 'line_length': 4, 'shift': [-0.03125, -0.4375], 'scale': 0.5, 'tint': {'b': 0, 'g': 0.54, 'r': 0.92, 'a': 0.5}, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-mask.png', 'animation_speed': 0.18}, 'line_length': 4, 'shift': [-0.0625, -0.4375], 'tint': {'b': 0, 'g': 0.54, 'r': 0.92, 'a': 0.5}, 'filename': '__base__/graphics/entity/spawner/spawner-idle-mask.png', 'animation_speed': 0.18}, {'shift': [1.125, -0.0625], 'height': 176, 'y': 704, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 232, 'hr_version': {'shift': [1.125, 0.3125], 'height': 406, 'y': 1624, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 464, 'line_length': 4, 'scale': 0.5, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-shadow.png', 'draw_as_shadow': True}, 'line_length': 4, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/spawner-idle-shadow.png', 'draw_as_shadow': True}]}, {'layers': [{'shift': [0.0625, -0.125], 'height': 180, 'y': 1080, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 248, 'hr_version': {'shift': [0.09375000000000001, -0.0625], 'height': 354, 'y': 2124, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 490, 'line_length': 4, 'scale': 0.5, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle.png', 'animation_speed': 0.18}, 'line_length': 4, 'direction_count': 1, 'filename': '__base__/graphics/entity/spawner/spawner-idle.png', 'animation_speed': 0.18}, {'flags': ['mask'], 'height': 118, 'y': 708, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 140, 'hr_version': {'flags': ['mask'], 'height': 234, 'y': 1404, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 276, 'line_length': 4, 'shift': [-0.03125, -0.4375], 'scale': 0.5, 'tint': {'b': 0, 'g': 0.54, 'r': 0.92, 'a': 0.5}, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-mask.png', 'animation_speed': 0.18}, 'line_length': 4, 'shift': [-0.0625, -0.4375], 'tint': {'b': 0, 'g': 0.54, 'r': 0.92, 'a': 0.5}, 'filename': '__base__/graphics/entity/spawner/spawner-idle-mask.png', 'animation_speed': 0.18}, {'shift': [1.125, -0.0625], 'height': 176, 'y': 1056, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 232, 'hr_version': {'shift': [1.125, 0.3125], 'height': 406, 'y': 2436, 'frame_count': 8, 'run_mode': 'forward-then-backward', 'width': 464, 'line_length': 4, 'scale': 0.5, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/hr-spawner-idle-shadow.png', 'draw_as_shadow': True}, 'line_length': 4, 'animation_speed': 0.18, 'filename': '__base__/graphics/entity/spawner/spawner-idle-shadow.png', 'draw_as_shadow': True}]}]</td>
+    </tr>
+    <tr>
+      <th>selection_box</th>
+      <td>[{'1': -3.5, '2': -2.5}, {'1': 2.5, '2': 2.5}]</td>
+      <td>[{'1': -3.5, '2': -2.5}, {'1': 2.5, '2': 2.5}]</td>
+    </tr>
+    <tr>
+      <th>max_richness_for_spawn_shift</th>
+      <td>100</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>max_spawn_shift</th>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>spawning_spacing</th>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>spawning_radius</th>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>max_friends_around_to_spawn</th>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>result_units</th>
+      <td>[{'1': 'small-biter', '2': [{'1': 0, '2': 0.30000000000000004}, {'1': 0.35000000000000003, '2': 0}]}, {'1': 'small-spitter', '2': [{'1': 0.25, '2': 0}, {'1': 0.5, '2': 0.30000000000000004}, {'1': 0.7000000000000001, '2': 0}]}, {'1': 'medium-spitter', '2': [{'1': 0.4, '2': 0}, {'1': 0.7000000000000001, '2': 0.30000000000000004}, {'1': 0.9, '2': 0.1}]}, {'1': 'big-spitter', '2': [{'1': 0.5, '2': 0}, {'1': 1, '2': 0.4}]}, {'1': 'behemoth-spitter', '2': [{'1': 0.9, '2': 0}, {'1': 1, '2': 0.30000000000000004}]}]</td>
+      <td>[{'1': 'small-biter', '2': [{'1': 0, '2': 0.30000000000000004}, {'1': 0.6000000000000001, '2': 0}]}, {'1': 'medium-biter', '2': [{'1': 0.2, '2': 0}, {'1': 0.6000000000000001, '2': 0.30000000000000004}, {'1': 0.7000000000000001, '2': 0.1}]}, {'1': 'big-biter', '2': [{'1': 0.5, '2': 0}, {'1': 1, '2': 0.4}]}, {'1': 'behemoth-biter', '2': [{'1': 0.9, '2': 0}, {'1': 1, '2': 0.30000000000000004}]}]</td>
+    </tr>
+    <tr>
+      <th>pollution_absorption_absolute</th>
+      <td>20</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>spawning_cooldown</th>
+      <td>[360, 150]</td>
+      <td>[360, 150]</td>
+    </tr>
+    <tr>
+      <th>dying_explosion</th>
+      <td>spitter-spawner-die</td>
+      <td>biter-spawner-die</td>
+    </tr>
+    <tr>
+      <th>icon</th>
+      <td>__base__/graphics/icons/spitter-spawner.png</td>
+      <td>__base__/graphics/icons/biter-spawner.png</td>
+    </tr>
+    <tr>
+      <th>corpse</th>
+      <td>spitter-spawner-corpse</td>
+      <td>biter-spawner-corpse</td>
+    </tr>
+    <tr>
+      <th>pollution_absorption_proportional</th>
+      <td>0.01</td>
+      <td>0.01</td>
+    </tr>
+  </tbody>
+</table>
+<a href="#"><h2>^ top</h2></a>

@@ -1,0 +1,173 @@
+<a href="index.html"><h2>< index</h2></a>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>steam-engine</th>
+      <th>steam-turbine</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>flags</th>
+      <td>[placeable-neutral, player-creation]</td>
+      <td>[placeable-neutral, player-creation]</td>
+    </tr>
+    <tr>
+      <th>damaged_trigger_effect</th>
+      <td>{'offsets': [{'1': 0, '2': 1}], 'type': 'create-entity', 'entity_name': 'spark-explosion', 'damage_type_filters': 'fire', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}]}</td>
+      <td>{'offsets': [{'1': 0, '2': 1}], 'type': 'create-entity', 'entity_name': 'spark-explosion', 'damage_type_filters': 'fire', 'offset_deviation': [{'1': -0.5, '2': -0.5}, {'1': 0.5, '2': 0.5}]}</td>
+    </tr>
+    <tr>
+      <th>collision_box</th>
+      <td>[{'1': -1.25, '2': -2.35}, {'1': 1.25, '2': 2.35}]</td>
+      <td>[{'1': -1.25, '2': -2.35}, {'1': 1.25, '2': 2.35}]</td>
+    </tr>
+    <tr>
+      <th>name</th>
+      <td>steam-engine</td>
+      <td>steam-turbine</td>
+    </tr>
+    <tr>
+      <th>maximum_temperature</th>
+      <td>165</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <th>vehicle_impact_sound</th>
+      <td>[{'filename': '__base__/sound/car-metal-impact-2.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-3.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-4.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-5.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-6.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/car-metal-impact-2.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-3.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-4.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-5.ogg', 'volume': 0.5}, {'filename': '__base__/sound/car-metal-impact-6.ogg', 'volume': 0.5}]</td>
+    </tr>
+    <tr>
+      <th>max_health</th>
+      <td>400</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <th>close_sound</th>
+      <td>[{'filename': '__base__/sound/machine-close.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/machine-close.ogg', 'volume': 0.5}]</td>
+    </tr>
+    <tr>
+      <th>min_perceived_performance</th>
+      <td>0.25</td>
+      <td>0.25</td>
+    </tr>
+    <tr>
+      <th>working_sound</th>
+      <td>{'max_sounds_per_type': 3, 'audible_distance_modifier': 0.8, 'fade_out_ticks': 20, 'match_speed_to_activity': True, 'fade_in_ticks': 4, 'sound': {'filename': '__base__/sound/steam-engine-90bpm.ogg', 'volume': 0.55}}</td>
+      <td>{'max_sounds_per_type': 3, 'audible_distance_modifier': 0.7000000000000001, 'fade_out_ticks': 20, 'match_speed_to_activity': True, 'fade_in_ticks': 4, 'sound': {'filename': '__base__/sound/steam-turbine.ogg', 'volume': 0.67}}</td>
+    </tr>
+    <tr>
+      <th>type</th>
+      <td>generator</td>
+      <td>generator</td>
+    </tr>
+    <tr>
+      <th>icon_size</th>
+      <td>64</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>performance_to_sound_speedup</th>
+      <td>0.5</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th>open_sound</th>
+      <td>[{'filename': '__base__/sound/machine-open.ogg', 'volume': 0.5}]</td>
+      <td>[{'filename': '__base__/sound/machine-open.ogg', 'volume': 0.5}]</td>
+    </tr>
+    <tr>
+      <th>smoke</th>
+      <td>[{'slow_down_factor': 1, 'starting_frame_deviation': 60, 'north_position': [0.9, 0], 'name': 'light-smoke', 'starting_vertical_speed': 0.08, 'frequency': 0.3125, 'east_position': [-2, -2]}]</td>
+      <td>[{'slow_down_factor': 1, 'starting_frame_deviation': 60, 'north_position': [0, -1], 'name': 'turbine-smoke', 'starting_vertical_speed': 0.08, 'frequency': 0.3125, 'east_position': [0.75, -0.75]}]</td>
+    </tr>
+    <tr>
+      <th>alert_icon_shift</th>
+      <td>[0.09375000000000001, -1.0625]</td>
+      <td>[0, -0.375]</td>
+    </tr>
+    <tr>
+      <th>fast_replaceable_group</th>
+      <td>steam-engine</td>
+      <td>steam-engine</td>
+    </tr>
+    <tr>
+      <th>horizontal_animation</th>
+      <td>{'layers': [{'line_length': 8, 'height': 128, 'width': 176, 'frame_count': 32, 'shift': [0.03125, -0.15625], 'filename': '__base__/graphics/entity/steam-engine/steam-engine-H.png', 'hr_version': {'line_length': 8, 'height': 257, 'scale': 0.5, 'frame_count': 32, 'shift': [0.03125, -0.1484375], 'filename': '__base__/graphics/entity/steam-engine/hr-steam-engine-H.png', 'width': 352}}, {'line_length': 8, 'hr_version': {'line_length': 8, 'scale': 0.5, 'height': 160, 'shift': [1.5, 0.75], 'frame_count': 32, 'width': 508, 'filename': '__base__/graphics/entity/steam-engine/hr-steam-engine-H-shadow.png', 'draw_as_shadow': True}, 'height': 80, 'shift': [1.5, 0.75], 'frame_count': 32, 'width': 254, 'filename': '__base__/graphics/entity/steam-engine/steam-engine-H-shadow.png', 'draw_as_shadow': True}]}</td>
+      <td>{'layers': [{'line_length': 4, 'width': 160, 'height': 123, 'shift': [0, -0.078125], 'frame_count': 8, 'run_mode': 'backward', 'filename': '__base__/graphics/entity/steam-turbine/steam-turbine-H.png', 'hr_version': {'line_length': 4, 'scale': 0.5, 'height': 245, 'shift': [0, -0.0859375], 'frame_count': 8, 'run_mode': 'backward', 'filename': '__base__/graphics/entity/steam-turbine/hr-steam-turbine-H.png', 'width': 320}}, {'shift': [0.8984375, 0.5625], 'height': 74, 'frame_count': 1, 'run_mode': 'backward', 'width': 217, 'hr_version': {'shift': [0.890625, 0.5625], 'height': 150, 'frame_count': 1, 'run_mode': 'backward', 'width': 435, 'line_length': 1, 'repeat_count': 8, 'scale': 0.5, 'filename': '__base__/graphics/entity/steam-turbine/hr-steam-turbine-H-shadow.png', 'draw_as_shadow': True}, 'line_length': 1, 'repeat_count': 8, 'filename': '__base__/graphics/entity/steam-turbine/steam-turbine-H-shadow.png', 'draw_as_shadow': True}]}</td>
+    </tr>
+    <tr>
+      <th>effectivity</th>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>corpse</th>
+      <td>steam-engine-remnants</td>
+      <td>steam-turbine-remnants</td>
+    </tr>
+    <tr>
+      <th>minable</th>
+      <td>{'result': 'steam-engine', 'mining_time': 0.30000000000000004}</td>
+      <td>{'result': 'steam-turbine', 'mining_time': 0.30000000000000004}</td>
+    </tr>
+    <tr>
+      <th>fluid_box</th>
+      <td>{'pipe_covers': {'south': {'layers': [{'height': 64, 'priority': 'extra-high', 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-south.png', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-south.png', 'width': 128}}, {'height': 64, 'priority': 'extra-high', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'width': 128, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-south-shadow.png', 'draw_as_shadow': True}, 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-south-shadow.png', 'draw_as_shadow': True}]}, 'north': {'layers': [{'height': 64, 'priority': 'extra-high', 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-north.png', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-north.png', 'width': 128}}, {'height': 64, 'priority': 'extra-high', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'width': 128, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-north-shadow.png', 'draw_as_shadow': True}, 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-north-shadow.png', 'draw_as_shadow': True}]}, 'west': {'layers': [{'height': 64, 'priority': 'extra-high', 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-west.png', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-west.png', 'width': 128}}, {'height': 64, 'priority': 'extra-high', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'width': 128, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-west-shadow.png', 'draw_as_shadow': True}, 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-west-shadow.png', 'draw_as_shadow': True}]}, 'east': {'layers': [{'height': 64, 'priority': 'extra-high', 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-east.png', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-east.png', 'width': 128}}, {'height': 64, 'priority': 'extra-high', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'width': 128, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-east-shadow.png', 'draw_as_shadow': True}, 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-east-shadow.png', 'draw_as_shadow': True}]}}, 'filter': 'steam', 'height': 2, 'pipe_connections': [{'position': [0, 3], 'type': 'input-output'}, {'position': [0, -3], 'type': 'input-output'}], 'production_type': 'input-output', 'base_area': 1, 'minimum_temperature': 100, 'base_level': -1}</td>
+      <td>{'pipe_covers': {'south': {'layers': [{'height': 64, 'priority': 'extra-high', 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-south.png', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-south.png', 'width': 128}}, {'height': 64, 'priority': 'extra-high', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'width': 128, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-south-shadow.png', 'draw_as_shadow': True}, 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-south-shadow.png', 'draw_as_shadow': True}]}, 'north': {'layers': [{'height': 64, 'priority': 'extra-high', 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-north.png', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-north.png', 'width': 128}}, {'height': 64, 'priority': 'extra-high', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'width': 128, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-north-shadow.png', 'draw_as_shadow': True}, 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-north-shadow.png', 'draw_as_shadow': True}]}, 'west': {'layers': [{'height': 64, 'priority': 'extra-high', 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-west.png', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-west.png', 'width': 128}}, {'height': 64, 'priority': 'extra-high', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'width': 128, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-west-shadow.png', 'draw_as_shadow': True}, 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-west-shadow.png', 'draw_as_shadow': True}]}, 'east': {'layers': [{'height': 64, 'priority': 'extra-high', 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-east.png', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-east.png', 'width': 128}}, {'height': 64, 'priority': 'extra-high', 'hr_version': {'height': 128, 'priority': 'extra-high', 'scale': 0.5, 'width': 128, 'filename': '__base__/graphics/entity/pipe-covers/hr-pipe-cover-east-shadow.png', 'draw_as_shadow': True}, 'width': 64, 'filename': '__base__/graphics/entity/pipe-covers/pipe-cover-east-shadow.png', 'draw_as_shadow': True}]}}, 'filter': 'steam', 'height': 2, 'pipe_connections': [{'position': [0, 3], 'type': 'input-output'}, {'position': [0, -3], 'type': 'input-output'}], 'production_type': 'input-output', 'base_area': 1, 'minimum_temperature': 100, 'base_level': -1}</td>
+    </tr>
+    <tr>
+      <th>selection_box</th>
+      <td>[{'1': -1.5, '2': -2.5}, {'1': 1.5, '2': 2.5}]</td>
+      <td>[{'1': -1.5, '2': -2.5}, {'1': 1.5, '2': 2.5}]</td>
+    </tr>
+    <tr>
+      <th>resistances</th>
+      <td>[{'percent': 70, 'type': 'fire'}, {'percent': 30, 'type': 'impact'}]</td>
+      <td>[{'percent': 70, 'type': 'fire'}]</td>
+    </tr>
+    <tr>
+      <th>water_reflection</th>
+      <td>{'pictures': {'shift': [0, 1.71875], 'scale': 5, 'height': 44, 'priority': 'extra-high', 'variation_count': 2, 'repeat_count': 2, 'filename': '__base__/graphics/entity/steam-engine/steam-engine-reflection.png', 'width': 40}, 'rotate': False, 'orientation_to_variation': True}</td>
+      <td>{'pictures': {'shift': [0, 1.5625], 'scale': 5, 'height': 36, 'priority': 'extra-high', 'variation_count': 2, 'repeat_count': 2, 'filename': '__base__/graphics/entity/steam-turbine/steam-turbine-reflection.png', 'width': 40}, 'rotate': False, 'orientation_to_variation': True}</td>
+    </tr>
+    <tr>
+      <th>fluid_usage_per_tick</th>
+      <td>0.5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>vertical_animation</th>
+      <td>{'layers': [{'line_length': 8, 'height': 195, 'width': 112, 'frame_count': 32, 'shift': [0.15625, -0.203125], 'filename': '__base__/graphics/entity/steam-engine/steam-engine-V.png', 'hr_version': {'line_length': 8, 'height': 391, 'scale': 0.5, 'frame_count': 32, 'shift': [0.1484375, -0.1953125], 'filename': '__base__/graphics/entity/steam-engine/hr-steam-engine-V.png', 'width': 225}}, {'line_length': 8, 'hr_version': {'line_length': 8, 'scale': 0.5, 'height': 307, 'shift': [1.265625, 0.2890625], 'frame_count': 32, 'width': 330, 'filename': '__base__/graphics/entity/steam-engine/hr-steam-engine-V-shadow.png', 'draw_as_shadow': True}, 'height': 153, 'shift': [1.265625, 0.296875], 'frame_count': 32, 'width': 165, 'filename': '__base__/graphics/entity/steam-engine/steam-engine-V-shadow.png', 'draw_as_shadow': True}]}</td>
+      <td>{'layers': [{'line_length': 4, 'width': 108, 'height': 173, 'shift': [0.15625, 0.203125], 'frame_count': 8, 'run_mode': 'backward', 'filename': '__base__/graphics/entity/steam-turbine/steam-turbine-V.png', 'hr_version': {'line_length': 4, 'scale': 0.5, 'height': 347, 'shift': [0.1484375, 0.2109375], 'frame_count': 8, 'run_mode': 'backward', 'filename': '__base__/graphics/entity/steam-turbine/hr-steam-turbine-V.png', 'width': 217}}, {'shift': [1.234375, 0.765625], 'height': 131, 'frame_count': 1, 'run_mode': 'backward', 'width': 151, 'hr_version': {'shift': [1.234375, 0.765625], 'height': 260, 'frame_count': 1, 'run_mode': 'backward', 'width': 302, 'line_length': 1, 'repeat_count': 8, 'scale': 0.5, 'filename': '__base__/graphics/entity/steam-turbine/hr-steam-turbine-V-shadow.png', 'draw_as_shadow': True}, 'line_length': 1, 'repeat_count': 8, 'filename': '__base__/graphics/entity/steam-turbine/steam-turbine-V-shadow.png', 'draw_as_shadow': True}]}</td>
+    </tr>
+    <tr>
+      <th>energy_source</th>
+      <td>{'usage_priority': 'secondary-output', 'type': 'electric'}</td>
+      <td>{'usage_priority': 'secondary-output', 'type': 'electric'}</td>
+    </tr>
+    <tr>
+      <th>icon</th>
+      <td>__base__/graphics/icons/steam-engine.png</td>
+      <td>__base__/graphics/icons/steam-turbine.png</td>
+    </tr>
+    <tr>
+      <th>dying_explosion</th>
+      <td>steam-engine-explosion</td>
+      <td>steam-turbine-explosion</td>
+    </tr>
+    <tr>
+      <th>icon_mipmaps</th>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>burns_fluid</th>
+      <td>NaN</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<a href="#"><h2>^ top</h2></a>
